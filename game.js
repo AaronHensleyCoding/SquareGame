@@ -10,7 +10,7 @@ window.addEventListener('resize', resizeCanvas);
 resizeCanvas();
 
 // Define quadrants and colors
-const colors = ['green', 'blue', 'yellow', 'red'];
+const colors = ['yellow', 'blue', 'green', 'red'];
 const icons = ['🖐️', '🙌', '🦶', '👣'];
 let currentIcon = '';
 
@@ -43,7 +43,7 @@ function flashRandomSquare() {
     // Pick a random quadrant
     const quadrant = Math.floor(Math.random() * 4);
     const w = canvas.width / 2;
-    const h = canvas.height / 2;
+    const h = canvas.height / 2;``
     const x = (quadrant % 2) * w;
     const y = Math.floor(quadrant / 2) * h;
 
